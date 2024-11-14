@@ -1,0 +1,120 @@
+[
+    {
+        "classes": [
+            {
+                "className": "cOnsole",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "consoleMsg",
+                        "notify": "ConsoleMsgChanged",
+                        "read": "GetConsoleMsg",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "cOnsole",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "ConsoleMsgChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "console.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "assembleClicked",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "Run",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "assembleClicked",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "assembleclicked.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "fileReader",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "file_path",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "FileSelect",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "fileReader",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "filereader.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "runClicked",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "Run",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "runClicked",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "runclicked.h",
+        "outputRevision": 68
+    }
+]

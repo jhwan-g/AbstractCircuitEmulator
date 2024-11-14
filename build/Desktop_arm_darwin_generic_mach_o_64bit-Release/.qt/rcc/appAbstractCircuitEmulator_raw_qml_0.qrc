@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/AbstractCircuitEmulator/">
+    <file alias="Main.qml">/Users/jhwangyu/DATA/SNU/2024_2/computerprogramming/AbstractCircuitEmulator/Main.qml</file>
+  </qresource>
+</RCC>
+
